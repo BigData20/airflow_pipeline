@@ -1,0 +1,14 @@
+[2020-04-25 19:21:49,623] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: DAG1.t2 2020-04-23T00:41:00+00:00 [queued]>
+[2020-04-25 19:21:49,630] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: DAG1.t2 2020-04-23T00:41:00+00:00 [queued]>
+[2020-04-25 19:21:49,630] {taskinstance.py:879} INFO - 
+--------------------------------------------------------------------------------
+[2020-04-25 19:21:49,630] {taskinstance.py:880} INFO - Starting attempt 1 of 2
+[2020-04-25 19:21:49,630] {taskinstance.py:881} INFO - 
+--------------------------------------------------------------------------------
+[2020-04-25 19:21:49,794] {taskinstance.py:900} INFO - Executing <Task(PythonOperator): t2> on 2020-04-23T00:41:00+00:00
+[2020-04-25 19:21:49,795] {standard_task_runner.py:53} INFO - Started process 16443 to run task
+[2020-04-25 19:21:49,907] {logging_mixin.py:112} INFO - Running %s on host %s <TaskInstance: DAG1.t2 2020-04-23T00:41:00+00:00 [running]> karthik-HP-Laptop-15-bs1xx
+[2020-04-25 19:21:49,917] {logging_mixin.py:112} INFO - Second function executed
+[2020-04-25 19:21:49,917] {python_operator.py:114} INFO - Done. Returned value was: None
+[2020-04-25 19:21:49,921] {taskinstance.py:1052} INFO - Marking task as SUCCESS.dag_id=DAG1, task_id=t2, execution_date=20200423T004100, start_date=20200425T232149, end_date=20200425T232149
+[2020-04-25 19:21:59,540] {logging_mixin.py:112} INFO - [2020-04-25 19:21:59,540] {local_task_job.py:103} INFO - Task exited with return code 0
